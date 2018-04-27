@@ -1,6 +1,5 @@
 import os
 import simplejson as json
-import django
 
 if os.path.isfile("./ages.json") and os.stat("./ages.json").st_size != 0:
     old_file = open("./ages.json", "r+")
